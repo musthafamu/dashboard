@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+  background: #F2F2FA 0% 0% no-repeat padding-box;
+
+}
+.text{
+  white-space: wrap;
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+  *{
+    scroll-behavior: smooth;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
